@@ -2,7 +2,6 @@ Feature: Android Login
 
   @BrowserStack
   Scenario: Cinsiyet secimi yapilmadan basarili login
-    Given Android uygulamasi baslatilir
     When Splash Ekranindan Turkiye secilir
     Then Cinsiyet secimi yapilmadan devam edilir
     Then Navigation Bar alanindan hesabim butonuna tiklanir

@@ -16,11 +16,13 @@ public class LoginStepDefs extends TestBase {
     LoginPage loginPage;
     AccountPage accountPage;
 
-
+/*
     @Given("Android uygulamasi baslatilir")
     public void androidUygulamasiBaslatilir() throws MalformedURLException {
         browserStackSetup();
     }
+
+ */
 
 
 
