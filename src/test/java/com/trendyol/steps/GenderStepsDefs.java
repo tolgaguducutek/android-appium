@@ -12,5 +12,4 @@ public class GenderStepsDefs extends TestBase {
         genderPage = new GenderPage(driver);
         genderPage.setnotSelectGender();
     }
-
 }
