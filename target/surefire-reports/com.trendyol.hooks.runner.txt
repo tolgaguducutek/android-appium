@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.trendyol.hooks.runner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 58.061 s - in com.trendyol.hooks.runner
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 50.989 s - in com.trendyol.hooks.runner
