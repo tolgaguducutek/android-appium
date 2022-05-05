@@ -47,12 +47,14 @@
             <artifactId>cucumber-testng</artifactId>
             <version>7.3.2</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.jetbrains/annotations -->
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
+            <version>23.0.0</version>
         </dependency>
+
 
 
     </dependencies>
