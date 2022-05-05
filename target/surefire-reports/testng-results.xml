@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="3030" started-at="2022-05-05T18:31:03 EET" finished-at="2022-05-05T18:31:06 EET">
+  <suite name="Surefire suite" duration-ms="2300" started-at="2022-05-05T18:52:35 EET" finished-at="2022-05-05T18:52:37 EET">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:hooks.runner@fad74ee]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="3030" started-at="2022-05-05T18:31:03 EET" finished-at="2022-05-05T18:31:06 EET">
+    <test name="Surefire test" duration-ms="2300" started-at="2022-05-05T18:52:35 EET" finished-at="2022-05-05T18:52:37 EET">
       <class name="hooks.runner">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:hooks.runner@fad74ee]" name="setUpClass" is-config="true" duration-ms="550" started-at="2022-05-05T18:31:03 EET" finished-at="2022-05-05T18:31:04 EET">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:hooks.runner@fad74ee]" name="setUpClass" is-config="true" duration-ms="555" started-at="2022-05-05T18:52:35 EET" finished-at="2022-05-05T18:52:35 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@10650953]]>
+                <![CDATA[org.testng.TestRunner@1991f767]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:hooks.runner@fad74ee]" name="runScenario" duration-ms="250" started-at="2022-05-05T18:31:04 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-05T18:31:04 EET">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:hooks.runner@fad74ee]" name="runScenario" duration-ms="232" started-at="2022-05-05T18:52:35 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-05T18:52:36 EET">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@ at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
 at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
 at Pages.PageBase.<init>(PageBase.java:21)
 at Pages.SplashPage.<init>(SplashPage.java:9)
-at steps.LoginStepDefs.splashEkranindanTurkiyeSecilir(LoginStepDefs.java:28)
+at steps.LoginStepDefs.splashEkranindanTurkiyeSecilir(LoginStepDefs.java:31)
 at ✽.Splash Ekranindan Turkiye secilir(file:///C:/Users/hp/IdeaProjects/TolgaDeneme3Mayis/src/test/resources/features/AndroidLogin.feature:5)
 ]]>
             </full-stacktrace>
@@ -56,7 +56,7 @@ at ✽.Splash Ekranindan Turkiye secilir(file:///C:/Users/hp/IdeaProjects/TolgaD
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:hooks.runner@fad74ee]" name="tearDownClass" is-config="true" duration-ms="2169" started-at="2022-05-05T18:31:04 EET" finished-at="2022-05-05T18:31:06 EET">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:hooks.runner@fad74ee]" name="tearDownClass" is-config="true" duration-ms="1483" started-at="2022-05-05T18:52:36 EET" finished-at="2022-05-05T18:52:37 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
