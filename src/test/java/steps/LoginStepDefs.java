@@ -2,6 +2,7 @@ package steps;
 
 import Base.TestBase;
 import Pages.*;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -15,13 +16,13 @@ public class LoginStepDefs extends TestBase {
     LoginPage loginPage;
     AccountPage accountPage;
 
-    /*
+
     @Given("Android uygulamasi baslatilir")
     public void androidUygulamasiBaslatilir() throws MalformedURLException {
         browserStackSetup();
     }
 
-     */
+
 
     @When("Splash Ekranindan Turkiye secilir")
     public void splashEkranindanTurkiyeSecilir() {

@@ -22,7 +22,7 @@ public class TestBase {
         driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), caps);
     }
 
-    public static void browserStackSetup(Scenario scenario) throws MalformedURLException {
+    public static void browserStackSetup() throws MalformedURLException {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("browserstack.user", "tolgaotomasyon_RoBdp8");
         caps.setCapability("browserstack.key", "HCkwUsoonBqH3w2Zpspe");
@@ -33,7 +33,7 @@ public class TestBase {
         caps.setCapability("app","bs://6e523ec20afd7bf7b5ebe9969f543f50a69f3125");
         caps.setCapability("project", "Tolga Android Trendyol");
         caps.setCapability("build", "Android Trendyol Build");
-        caps.setCapability("name",scenario.getName());
+        caps.setCapability("name","first_test");
         driver = new AndroidDriver(new URL("http://hub.browserstack.com/wd/hub"), caps);
     }
 

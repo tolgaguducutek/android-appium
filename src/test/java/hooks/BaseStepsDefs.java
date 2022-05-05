@@ -7,7 +7,7 @@ import io.cucumber.java.Scenario;
 import org.openqa.selenium.JavascriptExecutor;
 
 import java.net.MalformedURLException;
-
+/*
 public class BaseStepsDefs extends TestBase {
 
     @Before
@@ -38,4 +38,8 @@ public class BaseStepsDefs extends TestBase {
             tearDown();
         }
     }
+
+
 }
+
+ */
