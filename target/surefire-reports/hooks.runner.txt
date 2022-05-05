@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: hooks.runner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3 s <<< FAILURE! - in hooks.runner
-hooks.runner.runScenario["Cinsiyet secimi yapilmadan basarili login", "Android Login"](1)  Time elapsed: 0.244 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.623 s <<< FAILURE! - in hooks.runner
+hooks.runner.runScenario["Cinsiyet secimi yapilmadan basarili login", "Android Login"](1)  Time elapsed: 0.249 s  <<< FAILURE!
 java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Pages.SplashPage.turkeyButton to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
 

@@ -1,6 +1,6 @@
-package hooks;
+package com.trendyol.hooks;
 
-import Base.TestBase;
+import com.trendyol.Base.TestBase;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
